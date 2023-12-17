@@ -61,4 +61,10 @@
 		<PackageReference Include="Microsoft.Identity.Client.Extensions.Msal" Version="4.58.1" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <MauiXaml Update="Views\MainView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>
